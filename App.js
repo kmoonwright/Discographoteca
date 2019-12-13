@@ -21,6 +21,8 @@ export default class App extends React.Component {
     return (
       <View style={styles.container}>
         <Text>This is a test!!!!!!!</Text>
+        <Text>This is a test2!!!!!!!</Text>
+        <Text>This is a test3!!!!!!!</Text>
         <Text>Open up App.js to start working on your app!</Text>
       </View>
     );
