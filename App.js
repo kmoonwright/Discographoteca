@@ -40,5 +40,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  statusbar: {
+    backgroundColor: '#fff',
+    height: 20
+  }
 });
 

@@ -13,11 +13,12 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: '#171717',
     height: 60,
+    width: '100%',
     alignItems: 'center',
     justifyContent: 'center'
   },
   title: {
-    color: 'red',
+    color: 'white',
     fontSize: 28,
     fontWeight: '900',
     textTransform: 'uppercase'
