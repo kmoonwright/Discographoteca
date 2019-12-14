@@ -15,6 +15,12 @@ const styles = StyleSheet.create({
     height: 60,
     alignItems: 'center',
     justifyContent: 'center'
+  },
+  title: {
+    color: 'red',
+    fontSize: 28,
+    fontWeight: 900,
+    textTransform: 'uppercase'
   }
 })
 

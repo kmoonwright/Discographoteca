@@ -1,6 +1,8 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Header from './components/Header';
+
 
 export default class App extends React.Component {
 
@@ -18,12 +20,13 @@ export default class App extends React.Component {
   }
 
   render() {
+    const statusbar = (Platform.OS == 'ios') ? <View style={styles.statusbar}></View> : <View></View>
+
     return (
       <View style={styles.container}>
+        {statusbar}
+        <Header title='Discogroteca'></Header>
         <Text>This is a test!!!!!!!</Text>
-        <Text>This is a test2!!!!!!!</Text>
-        <Text>This is a test3!!!!!!!</Text>
-        <Text>Open up App.js to start working on your app!</Text>
       </View>
     );
   }
