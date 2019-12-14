@@ -26,7 +26,7 @@ export default class App extends React.Component {
       <View style={styles.container}>
         {statusbar}
         <Header title='Discogroteca'></Header>
-        <Text>This is a test!!!!!!!</Text>
+        <Text>I AM YOUR PHONE!!!!!</Text>
       </View>
     );
   }
